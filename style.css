@@ -13,7 +13,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right, rgba(0,0, 0,0.19) #FFE2E2, );
+    background-color:  #FFE2E2;
 }
 
 
@@ -22,8 +22,8 @@ section{
     margin-top: 100px;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    width: 300px;
+    border-radius: 10px;
+    width: 700px;
     background-color: #fff;
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -38,10 +38,14 @@ section{
     align-items: center;
     width: 100%;
     max-width: 270px;
+    box-shadow: 0 4px 8px 0 rgba(114, 114, 114, 0.2), 0 6px 20px 0 rgba(102, 102, 102, 0.19);
 }
 .profile_pic img{
     width:100%;
     height:auto;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    background-color: transparent;
 }
 .content{
     margin-top: 220px;
@@ -63,8 +67,10 @@ section{
 
 }
 .bio{
+    width: 400px;
     padding-top: 5px;
     text-align: justify;
+    padding: 20px;
     color: var(--slate_grey) ;
 }
 span{
@@ -72,12 +78,49 @@ span{
 }
 .socials{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     gap: 20px;
-    padding: 10px;
+    padding-top: 10px;
 }
 .other_info{
-    padding-top:10px;
+    padding-top:0px;
     color: var(--slate_grey) ;
+}
+
+@media (min-width: 500px) and (max-width:768px){
+    section{
+        width: 300px;
+        border-radius: 0;
+    }
+    .profile_pic{
+        margin-top: 40px;
+        position: absolute;
+        top: -70px;
+        /* left:10; */
+        right: 15.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 270px;
+        box-shadow: 0 4px 8px 0 rgba(114, 114, 114, 0.2), 0 6px 20px 0 rgba(102, 102, 102, 0.19);
+    }
+    .profile_pic img{
+        border-radius:  0;
+    }
+    .text p{
+        position: absolute;
+        top: 170px;
+        left:30px;;
+    }
+    .bio{
+        display:none;
+    }
+    .socials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+    }
 }

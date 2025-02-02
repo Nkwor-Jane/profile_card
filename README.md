@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is project is for promotion into stage 1 for the HNG12 Cohort. It is  a responsive Profile card made with HTML, CSS, and Vanilla JavaScript. This task is meant to introduce us to responsive design and showcase our frontend skills.
+This is project is for promotion into stage 1 for the HNG Internship Cohort 12. It is  a responsive Profile card made with HTML, CSS, and Vanilla JavaScript. This task is meant to introduce us to responsive design and showcase our frontend skills.
 
 ## Features
 
@@ -22,14 +22,14 @@ This is project is for promotion into stage 1 for the HNG12 Cohort. It is  a res
 ## Screenshots
 
 - Desktop View
-![Before View](public/)
+![Before View](assets/desktop_view.png)
 
 - Mobile View
-![After View](public/)
+![After View](public/mobile_view.png)
 
 ## Live Demo
 
-Check out the live demo [here]()
+Check out the live demo [here](https://janeprofilecard.netlify.app/)
 
 ## Contributing
 
